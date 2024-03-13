@@ -1,11 +1,9 @@
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import {Link} from "lucide-react";
+import { SearchIcon } from "lucide-react";
 
 
 function Navbar(){
-
-
   return (
       <nav className="white">
         <div className="max-w-screen mx-6 mt-2 flex space-x-3 flex-wrap items-center justify-between">
@@ -27,8 +25,11 @@ function Navbar(){
           </div>
           <div>
             <ul className="flex justify-center">
-              <li className="mx-5">
-                <Input placeholder="Search Models"/>
+              <li className="mx-5 flex">
+                <div className="flex w-full max-w-sm items-center space-x-2 border border-gray-300 rounded-lg px-3.5">
+                  <SearchIcon className="h-4 w-4 text-gray-500"/>
+                  <Input className="placeholder-gray-300 border-0 outline-none" placeholder="Search terms..."/>
+                </div>
               </li>
               <li className="mx-5 mt-2">
                 <a href="/blog">Models</a>
@@ -43,9 +44,7 @@ function Navbar(){
           </div>
         </div>
       </nav>
-
   )
-
 }
 
 export default Navbar
