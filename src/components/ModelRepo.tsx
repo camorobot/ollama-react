@@ -25,7 +25,7 @@ function ModelRepo({activeFilter, searchTerm}: ModelRepoProps){
         {filteredModels.map((model, index) => (
             <ul key={index} className="grid grid-cols-1 gap-y-3 ">
               <li className="flex border-b py-6">
-                <a href="/" className="w-full">
+                <a href={`/model/${model.title.toLowerCase()}`} className="w-full">
                   <h2 className="text-xl font-semibold hover:underline mb-4">{model.title}</h2>
                   <p className="mb-4 max-w-md">{model.description}</p>
                   <p className="flex space-x-5 text-sm text-gray-400">
