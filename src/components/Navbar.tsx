@@ -35,7 +35,7 @@ function Navbar(){
                 <a href="/models">Models</a>
               </li>
               <li className="mx-5 mt-2">
-                <a href="/signin">Sign in</a>
+                <a href="/ai">Your AI</a>
               </li>
               <li className="mx-5">
                 <Button>Download</Button>

@@ -168,5 +168,22 @@
       "3.2",
       "latest"
     ]
+  },
+  {
+    "title": "llama2",
+    "description": "llama2 is at the forefront of autonomous navigation technologies, providing AI solutions for self-driving vehicles through sophisticated environmental sensing and decision-making algorithms.",
+    "downloads": 476000,
+    "tags": 121,
+    "lastUpdated": "2024-02-20T10:22:19+00:00",
+    "versions":  [
+      "1.0",
+      "2.0",
+      "2.1",
+      "2.2",
+      "3.0",
+      "3.1",
+      "3.2",
+      "latest"
+    ]
   }
 ]
